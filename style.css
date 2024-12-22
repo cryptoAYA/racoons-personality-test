@@ -50,6 +50,7 @@ label {
   margin-bottom: 30px;
 }
 
+/* Submit / Restart Buttons */
 .submit-btn, #restart-btn {
   padding: 12px 20px;
   background-color: #f76d3c;
@@ -63,6 +64,13 @@ label {
 
 .submit-btn:hover, #restart-btn:hover {
   opacity: 0.8;
+}
+
+/* Creator Info (Small Text) */
+.small-creator {
+  margin-top: 8px;
+  font-size: 0.8rem; 
+  color: #555;
 }
 
 /* Modal (Popup) Style */
