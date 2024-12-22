@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(120deg, #ffe3c9, #ffd1f7);
+  color: #333;
+}
+
+/* Page Title */
+h1 {
+  text-align: center;
+  margin: 30px 0 20px;
+  color: #f76d3c;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+/* Form Area */
+form {
+  width: 90%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Question Card Style */
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+.card p {
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+label {
+  display: block;
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+/* Button Container */
+.btn-container {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.submit-btn, #restart-btn {
+  padding: 12px 20px;
+  background-color: #f76d3c;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.submit-btn:hover, #restart-btn:hover {
+  opacity: 0.8;
+}
+
+/* Modal (Popup) Style */
+.modal {
+  display: none; /* Start hidden */
+  position: fixed; /* Fixed on screen */
+  z-index: 999; /* On top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto; /* Scroll if needed */
+  background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
+}
+
+.modal-content {
+  position: relative;
+  margin: 10% auto;
+  background-color: #fff;
+  width: 90%;
+  max-width: 400px;
+  padding: 30px 20px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* Modal Close Button */
+.close-btn {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  cursor: pointer;
+  font-size: 25px;
+  font-weight: bold;
+  color: #999;
+  transition: color 0.3s;
+}
+
+.close-btn:hover {
+  color: #f76d3c;
+}
+
+/* Result Image Style */
+#result-image {
+  width: 100%;
+  max-width: 250px;
+  margin-top: 20px;
+  border: 2px solid #eee;
+  border-radius: 10px;
+}
+
+/* Result Message Style */
+.result-message {
+  margin-top: 15px;
+  font-size: 1.1em;
+  font-weight: 600;
+  color: #444;
+}
